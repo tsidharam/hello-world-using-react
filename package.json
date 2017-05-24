@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello world demo",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"                                      
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-react": "^6.23.0",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "scripts": {
+  	"build": "webpack",
+  	"start": "webpack-dev-server" 
+  },
+  "babel": {
+    "presets": ["react"]
+  }
+}
